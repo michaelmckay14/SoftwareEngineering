@@ -6,13 +6,15 @@ import java.util.ArrayList;
 
 //add a node
 // v is equal to a value
+class Node { 
 
-class node{
-	int data, v;
-	Node left, right;
+    int data; 
+    Node left, right; 
+  
+    Node(int v) {
 
-	Node(x){
-		data = x;
-		left = right = null;
-	}	
+        data = v; 
+        left = right = null; 
+    
+    } 
 } 
