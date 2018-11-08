@@ -99,6 +99,8 @@ public class LCA {
         System.out.println("LCA(8, 9) = " + tree.LCA(8,9)); 
         System.out.println("LCA(5, 6) = " + tree.LCA(5,6));
         System.out.println("LCA(7, 9) = " + tree.LCA(7,9));
+        System.out.println("LCA(8, 6) = " + tree.LCA(8,6));
+        System.out.println("LCA(4, 5) = " + tree.LCA(4,5));
 
       
     } 
